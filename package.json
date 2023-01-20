@@ -1,0 +1,17 @@
+{
+  "name": "django-vue-sfc",
+  "version": "1.0.0",
+  "main": "index.js",
+  "repository": "https://tanssw@bitbucket.org/bgic/django-vue-sfc.git",
+  "author": "Tasanai Srisawat <tasanai.srisawat@gmail.com>",
+  "license": "MIT",
+  "scripts": {
+    "front-dev": "cd frontend && vue-cli-service serve",
+    "build-staging": "cd frontend && vue-cli-service build --mode staging",
+    "back-serve": "cd backend && python3 manage.py runserver"
+  },
+  "dependencies": {
+    "vue": "^3.1.4",
+    "vue-router": "^4.0.10"
+  }
+}
